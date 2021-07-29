@@ -12,8 +12,7 @@ export class App extends React.Component {
 
     super(props);
 
-    this.botMessageList = ['Hi', 'How are you?']
-
+    this.botMessageList = ['Hi', 'How are you?', 'How may I help you?']
       this.botAnswer = this.botAnswer.bind(this);
       this.updateMessageList = this.updateMessageList.bind(this);
       this.clearMessageList = this.clearMessageList.bind(this);
